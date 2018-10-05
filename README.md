@@ -4,6 +4,6 @@ This is a dummy driver that does nothing. To deploy and start this dummy driver 
 To use this driver:
 
 1. Copy dummy.sys to C:\Windows\System32\Drivers
-2. sc create dummy type= kernel start= demand error= normal binPath= System32\Drivers\dummy.sys DisplayName= SwissCheese
+2. sc create dummy type= kernel start= demand error= normal binPath= System32\Drivers\dummy.sys DisplayName= dummy
 3. sc query dummy
 4. sc start dummy
